@@ -126,6 +126,25 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+.top-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: lightgray;
+}
+.top-content h1 {
+  font-size: 2.4rem;
+  padding: 2.5%;
+}
+.top-content .navigation {
+  width: 100%;
+}
+.top-content .navigation a {
+  text-decoration: none;
+  padding: 2.5%;
+  color: black;
+  font-size: 1.8rem;
+}
 footer {
   color: #22283B;
   background: #f4f4f4;
@@ -135,6 +154,15 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.home .intro h2 {
+  font-size: 2.4rem;
+}
+.home .intro h3 {
+  font-size: 2.4rem;
+}
+.home .intro p {
+  font-size: 1.4rem;
 }
 .home .intro h2 {
   padding: 15px;
@@ -156,6 +184,15 @@ footer {
 .home .visit-planets {
   padding: 15px;
 }
+.home .visit-planets h2 {
+  font-size: 2.4rem;
+}
+.home .visit-planets h3 {
+  font-size: 2.4rem;
+}
+.home .visit-planets p {
+  font-size: 1.4rem;
+}
 .home .visit-planets h3 {
   margin-top: 11px;
 }
@@ -168,6 +205,15 @@ footer {
   padding: 50px 60px;
   display: flex;
   justify-content: center;
+}
+.home .walk h2 {
+  font-size: 2.4rem;
+}
+.home .walk h3 {
+  font-size: 2.4rem;
+}
+.home .walk p {
+  font-size: 1.4rem;
 }
 .home .walk .walk-text {
   width: 50%;
