@@ -5,20 +5,47 @@
     align-items: center;
     background: lightgray;
 
+    @media @phone {
+        display: flex;
+        // justify-content: center;
+        // align-items: center;
+        align-content: center;
+        width: 100%;
+    }
+
     
     h1 {
-        font-size:2.4rem;
+        font-size:3.6rem;
         padding: 2.5%;
+
+        @media @phone {
+            .strip();
+            font-size: 2.4rem;
+        }
     }
     .navigation{
         width: 100%;
+        padding-bottom: 2.5%;
+       
+
+        @media @phone {
+            width: 100%;
+            padding-left: 10%;
+        }
+        
         
         a {
             text-decoration: none;
             padding: 2.5%;
             color: black;
             font-size: 1.8rem;
-        
+            
+            @media @phone {
+                font-size: 1.2rem;
+                padding: 3%;
+                
+
+            }
         }
     }
 }

@@ -34,13 +34,24 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the difference between an adaptive website and a fully responsive website?
 
+Responsive websites will respond to the screen size changing while adaptive websites have hard break points and respond accordingly at each point. 
+
 2. Describe what it means to be mobile first vs desktop first.
+
+Mobile first is when we build a website for phones before building it for desktops, this is based around the asusmption most viewers will look at the web site from their phones more often than a computer.
 
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
 
+it allows us to use rem units such as 1.8 to equal 18px.
+
 4. How would you describe preprocessing to someone new to CSS?
 
+preprocessers compile css from multiple different files into 1 file that allows the css to be more readable and easier to keep up with.
+
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+
+The fact it complies all my -sometimes jumbled- css into something that is readable. 
+Remembering the exact code to put into the terminal for the preprocessor to begin compiling.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
@@ -116,9 +127,9 @@ _You will know everything is working properly when you see the styles enabled fo
 
 * [x] Create a `@phone` variable that contains a `max-width: 500px` media query string. Use the `@phone` variable for all your nested mobile styling.
 
-* [ ] [Review the provided home mobile design file](design-files/home-mobile.png). Match your mobile styling the best you can using the design file.
+* [x] [Review the provided home mobile design file](design-files/home-mobile.png). Match your mobile styling the best you can using the design file.
 
-* [ ] Push your changes and create a pull request if you haven't already.
+* [x] Push your changes and create a pull request if you haven't already.
 
 In your solution, it is essential that you follow best practices and produce clean and professional results. Schedule time to review, refine, and assess your work and perform basic professional polishing including spell-checking and grammar-checking on your work. It is better to submit a challenge that meets MVP than one that attempts too much and does not.
 

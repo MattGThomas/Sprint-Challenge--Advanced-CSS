@@ -1,22 +1,30 @@
 // Home Content
-.ctn {
-  // width: 880px;
-  margin: 0 auto;
-}
+
 .home {
   
   .intro {
     .heading();
     h2 {
       padding: 15px;
+
+      @media @phone {
+        padding: 15px 0 15px 15px;
+      }
     }
 
     p {
       padding:0 15px;
+
+      @media @phone {
+        .strip();
+      }
     }
     img {
       width: 100%;
-      
+
+      @media @phone {
+        width: 100%;
+      }
     }
   }
   .space-images {
