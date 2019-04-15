@@ -152,11 +152,12 @@ table {
 .top-content .navigation {
   width: 100%;
   padding-bottom: 2.5%;
+  text-align: center;
 }
 @media (max-width: 500px) {
   .top-content .navigation {
     width: 100%;
-    padding-left: 10%;
+    text-align: center;
   }
 }
 .top-content .navigation a {
@@ -287,6 +288,8 @@ footer {
     width: 100%;
     padding-left: 3%;
     padding-top: 4%;
+    padding-right: 0;
+    margin-right: 0;
   }
 }
 .home .walk .walk-text {
