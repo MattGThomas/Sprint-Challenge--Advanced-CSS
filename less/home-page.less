@@ -1,5 +1,8 @@
 // Home Content
-
+.ctn {
+  // width: 880px;
+  margin: 0 auto;
+}
 .home {
   
   .intro {
@@ -27,6 +30,23 @@
       border-radius: 20px;
       height: 100%;
     }
+    .sky {
+      @media @phone {
+        display: none;
+      }
+    }
+    .launch {
+      @media @phone {
+        display: none;
+      }
+    }
+    .blast {
+      @media @phone {
+        width: 90%;
+        padding-right: 0;
+        margin-right: 0;
+      }
+    }
   }
 
   .visit-planets {
@@ -35,6 +55,9 @@
 
     h3 {
       margin-top: 11px;
+      @media @phone {
+        padding-bottom: 10px;
+      }
     }
 
     p {
@@ -43,41 +66,78 @@
   }
 
   .walk {
+    .heading();
+
     margin-top: 60px;
     border-top: 1px solid @main-border-color;
     padding: 50px 60px;
     display: flex;
     justify-content: center;
-    .heading();
+    
+
+    @media @phone {
+      flex-direction: column-reverse;
+      width: 100%;
+      padding-left: 3%;
+      padding-top: 4%;
+    }
 
     .walk-text {
+      // border: 1px solid red;
       width: 50%;
+
+      @media @phone {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+      }
 
       h3 {
         margin-bottom: 10px;
+        @media @phone {
+          padding: 5% 0 2%;
+          // border: 1px solid red;
+          // display: flex;
+        }
       }
 
       p {
         margin-bottom: 26px;
-      }
-
-      .btn {
-        button{
-        .button-style(white, navy );
-      
+        @media @phone {
+          width: 95%;
+          // border: 1px solid red;
         }
       }
     }
 
+      .btn {
+        button{
+        .button-style(white, navy );
+        @media @phone {
+          width: 95%;
+          padding: 3% 10%;
+        }      
+      }
+          } 
+      
     .walk-img {
       width: 46%;
       margin-left: 4%;
-      
+      @media @phone {
+        display: flex;
+        width: 90%;
+        margin: 0;
+        padding: 0;
+      }
       img {
         width: 100%;
         height: auto;
         border-radius: 10px;
-      }
+       
+      } 
     }
   }
-}// home
+}
+// home
